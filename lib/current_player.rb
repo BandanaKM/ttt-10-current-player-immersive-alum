@@ -1,4 +1,6 @@
 
+board = [" O", " X "]
+
 def turn_count(board)
   counter = 0
   board.each do | b |
@@ -9,3 +11,4 @@ def turn_count(board)
   end
   counter
 end
+
